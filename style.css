@@ -1,0 +1,8 @@
+@import url('https://fonts.googleapis.com/css2?family=Fredoka:wght@500;700&family=Poppins:wght@400;600;700&display=swap');
+:root{--cream:#FDF6EC;--coral:#EF6C62;--teal:#3096A0;--plum:#422C46;--peach:#FFD6BA;--mint:#C4ECE0;--lilac:#E1D4F5}
+*{box-sizing:border-box}body{margin:0;font-family:Poppins,sans-serif;color:var(--plum);line-height:1.6;min-height:100vh;background:linear-gradient(135deg,var(--peach),var(--mint) 50%,var(--lilac))}
+main{max-width:760px;margin:40px auto;padding:36px 40px;background:var(--cream);border-radius:28px;box-shadow:0 10px 30px rgba(66,44,70,.12)}
+h1,h2{font-family:Fredoka,sans-serif;font-weight:700;color:var(--plum);line-height:1.15}h1{font-size:2.4rem;margin:.4em 0}
+.tag,.pill{display:inline-block;padding:.35em 1em;border-radius:999px;color:#fff;font-weight:700;font-size:.85rem;letter-spacing:.04em}
+.tag{background:var(--teal)}.pill{background:var(--coral)}a{color:var(--teal);font-weight:600}
+nav a{margin-right:1em}footer{margin-top:2em;font-size:.85rem;color:#8c788c}
